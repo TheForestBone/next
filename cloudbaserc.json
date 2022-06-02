@@ -1,0 +1,19 @@
+{
+    "envId": "next-0gc9n8db08f6ca78",
+    "version": "2.0",
+    "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+    "functionRoot": "./functions",
+    "functions": [],
+    "framework": {
+        "name": "fengbizhe",
+        "plugins": {
+            "hexo": {
+                "use": "@cloudbase/framework-plugin-website",
+                "inputs": {
+                    "buildCommand": "npx hexo generate",
+                    "outputPath": "./public"
+                }
+            }
+        }
+    }
+}
